@@ -7,9 +7,7 @@ use yii\db\Migration;
  */
 class m180108_111455_add_clien_base extends Migration
 {
-    /**
-     * @inheritdoc
-     */
+
     public function safeUp()
     {
         $this->createTable('Client', [
